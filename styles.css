@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.game {
+  width: 800px;
+  height: 800px;
+  background-color: rgb(233, 232, 232);
+  border: 5px solid black;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.generation {
+  display: flex;
+  flex-direction: row;
+  gap: 2ch;
+}
+
+.alive {
+  background-color: black;
+}
